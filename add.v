@@ -1,7 +1,7 @@
 module logic(
     input wire A,
     input wire B,
-    output wire [1:0] X,
+    output wire [1:0] X
 );
     
     wire and = A & B;
